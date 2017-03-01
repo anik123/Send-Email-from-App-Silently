@@ -11,7 +11,7 @@ Add this library in your libs folder
 | [activation.jar](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/javamail-android/activation.jar)  | JAF for android (need additionnal.jar)                            |
 
 
-You also need to put these permision in your **AndroidManifest.xml**
+You also need to put these permisions in your **AndroidManifest.xml**
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
