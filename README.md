@@ -1,4 +1,4 @@
-# Send-Email-from-App-Silently
+# Send Email from App Silently
 
 This app will take email address of sender from their device and will send email to the receiver silently.
 
