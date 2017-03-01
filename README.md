@@ -11,3 +11,12 @@ Add this library in your libs folder
 | [activation.jar](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/javamail-android/activation.jar)  | JAF for android (need additionnal.jar)                            |
 
 you find these jar [here](https://code.google.com/archive/p/javamail-android/downloads)
+
+You also need to put these permision in your AndroidManifest.xml
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+If you want to retrive user's mail addres from their device, you will need to put this permission too in your AndroidManifest.xl
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
